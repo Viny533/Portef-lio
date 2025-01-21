@@ -38,7 +38,7 @@ h2.titulo{
 }
 
 h2.titulo span{
-    color: chartreuse;
+    color: rgb(255, 0, 0);
 }
 
 button:hover{
@@ -64,7 +64,7 @@ header a{
 }
 
 header nav.menu-desktop a:hover{
-    color: #fff;
+    color: blue;
     transform: scale(1.05);
 }
 
