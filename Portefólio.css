@@ -63,18 +63,43 @@ header a{
     transition: .2s;
 }
 
-header a:hover{
+header nav.menu-desktop a:hover{
     color: #fff;
     transform: scale(1.05);
 }
 
-header nav ul{
+header nav.menu-desktop ul{
     list-style-type: none;
 }
 
-header nav ul li{
+header nav.menu-desktop ul li{
     display: inline-block;
     padding: 0 40px;
+}
+
+.menu-mobile{
+    background-color: red;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 99999;
+    width: 90px;
+}
+
+.menu-mobile nav ul{
+    text-align: right;
+}
+
+.menu-mobile nav ul li a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 20px 4%;
+}
+
+.menu-mobile nav ul li a:hover{
+    background-color: aqua;
 }
 
 section.topo-do-site{
@@ -166,7 +191,7 @@ section.sobre .flex{
     margin: 20px 0;
     text-align: justify;
 }
-.sobre .txt-sobre .btn-social button{
+.btn-social button{
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -238,3 +263,28 @@ section.portfolio .flex{
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
     transition: backgroud-color .3s ease;
 }
+
+footer{
+    padding: 60px 4%;
+    box-shadow: 0 0 40px 10px #ffffff3e;
+}
+footer .flex{
+    justify-content: space-between;
+}
+footer .line-footer{
+    padding: 20px 0;
+    
+}
+.borda{
+    border-top: 2px solid blue;
+}
+footer .line-footer p i{
+    color: #fff;
+    font-size: 19px;
+}
+
+footer.line-footer p a{
+    color: #fff;
+}
+
+
